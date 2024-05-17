@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://i.gifer.com/4SLy.gif"); /* Replace "background-image.jpg" with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: cover; /* Center the background */
+    background-repeat: repeat; /* Do not repeat the background */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex; /* Use flexbox to center items horizontally and vertically */
+    flex-direction: column; /* Align items vertically */
+    justify-content: flex-start; /* Align items at the start of the flex container */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Set height to 100% of viewport height */
+}
+
+.oval-box {
+    background: linear-gradient(45deg, blue, black);
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    font-size: 24px; /* Increase font size for main heading */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 20px;
+    position: relative; /* Position relative for button-image positioning */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.oval-button {
+    background: linear-gradient(45deg, orange, black);
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-decoration: none;
+    position: relative; /* Position relative for z-index */
+    z-index: 1; /* Ensure buttons are on top of images */
+    margin-right: 10px; /* Add some space between button and image */
+}
+
+.button-image {
+    width: 50px; /* Set width to 50px (adjust as needed) */
+    height: 50px; /* Set height to 50px (adjust as needed) */
+    border-radius: 10px; /* Make image square */
+    position: relative; /* Position images relative for overlap */
+    z-index: 0; /* Ensure images are behind buttons */
+}
+
+#bankai{
+    color: orange;
+}
+
+#obtain{
+    color:orange
+}
